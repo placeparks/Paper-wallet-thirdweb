@@ -42,7 +42,7 @@ ownedNfts.length > 0 ? (
         </div>
     ))
 ) : (
-    <p>You don't own any NFTs yet.</p>
+ <p>You don&apos;t own any NFTs yet.</p>
 )
 ) : (
 <p>Loading...</p>
