@@ -8,13 +8,14 @@ const activeChain = "mumbai";
 
 
 function MyApp({ Component, pageProps }) {
+  const paperId= process.env.NEXT_PUBLIC_PAPER_CLIENT_ID;
   return (
     <ThirdwebProvider activeChain={activeChain}
     supportedWallets={[ 
       metamaskWallet() ,
       coinbaseWallet(),
     paperWallet({
-        paperClientId: '38d60eb1-c2b1-422e-bb4b-a1d9d8cff50a',
+        paperClientId: paperId ,
         
       }),
   ]}
