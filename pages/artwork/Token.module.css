@@ -1,0 +1,53 @@
+
+/* Styles for the Artwork page */
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Styles for the NFT media */
+  .thirdweb-nft-media {
+    height: 50%;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .cardBody {
+    margin-top: 20px;
+    
+  }
+  
+  .cardBody p {
+    font-size: 18px;
+    padding-left: 5%;
+  }
+  
+  /* Styles for the Checkout button */
+  .papergroup {
+    margin-top: 20px;
+    padding-left: 5%;
+  }
+  
+  .papergroup button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .papergroup button:hover {
+    background-color: #0056b3;
+  }
