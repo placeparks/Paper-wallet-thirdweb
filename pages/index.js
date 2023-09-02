@@ -1,6 +1,5 @@
 import { ConnectWallet, ThirdwebNftMedia, useContract, useNFTs } from "@thirdweb-dev/react";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {

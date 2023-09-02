@@ -10,10 +10,10 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div className="container-fluid">
           <Link href="/">
-            <div className="navbar-brand">Navbar</div>
+            <div className="navbar-brand">Mirac.eth</div>
           </Link>
           <button
             onClick={() => setIsOpen(!isOpen)} // Toggle menu on click
